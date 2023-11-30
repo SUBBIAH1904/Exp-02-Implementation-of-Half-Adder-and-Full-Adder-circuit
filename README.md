@@ -20,14 +20,15 @@ Full adder is a digital circuit used to calculate the sum of three binary bits. 
 
 Sum =A’B’Cin + A’BCin’ + ABCin + AB’Cin’ = A ⊕ B ⊕ Cin Carry = AB + ACin + BCin
 
- ![image](https://user-images.githubusercontent.com/36288975/163552156-a13e5a56-c638-4110-97d9-8896907c8d25.png)
+ 
 
 #### Figure -01 HALF ADDER 
 
-
-![image](https://user-images.githubusercontent.com/36288975/163552057-b3547877-6d07-45b4-b7e0-bcfebfad9e1d.png)
+![image](https://user-images.githubusercontent.com/36288975/163552156-a13e5a56-c638-4110-97d9-8896907c8d25.png)
 
 #### Figure -02 FULL ADDER 
+
+![image](https://user-images.githubusercontent.com/36288975/163552057-b3547877-6d07-45b4-b7e0-bcfebfad9e1d.png)
 
 ### Procedure
 
@@ -36,19 +37,53 @@ Switch ON the main switch
 If the output is 1, then the led glows.
 ### 
 Program:
+
+###Full Adder Code
+
+![Exp3 1 fa code](https://github.com/SUBBIAH1904/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/147473604/ca2cec42-0ef0-4df9-8dde-90f1598eef63)
+
+
+###Half Adder Code
+
+![Exp3 ha code](https://github.com/SUBBIAH1904/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/147473604/4789ec7f-ae6a-45fa-9836-c39c51a8d77a)
+
 /*
+
 Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
+
+Developed by: SUBBIAH S
+
+RegisterNumber:  23005732
+
 */
-Logic symbol & Truthtable
-RTL realization
+
+###Full Adder Truthtable 
+
+![Exp3 truthtable (fa)](https://github.com/SUBBIAH1904/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/147473604/39811e8b-9a49-4de5-9a51-3e563d37ba60)
+
+###Full Adder RTL realization
+
+![Exp3 fa RTL diagram](https://github.com/SUBBIAH1904/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/147473604/b4fac74f-0ba1-4d15-ac44-c3f1c455e2e3)
+
+
+###Full Adder TIMING DIAGRAM
+
+![Exp3 fa wave](https://github.com/SUBBIAH1904/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/147473604/76f1cd3f-8a02-4d86-8620-4b15e224153a)
+
 
 ### Output:
-### RTL
-### TIMING DIAGRAM
 
+### Half Adder Truthtable
 
-### TRUTH TABLE 
+![Exp3 truthtable (ha)](https://github.com/SUBBIAH1904/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/147473604/6825c050-4c86-4351-aa57-ad0790358939)
+
+### Half Adder RTL  realization
+
+![Exp3 ha RTL diagram](https://github.com/SUBBIAH1904/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/147473604/2ac850fd-6f6f-455a-a5ee-d1722c3b26e8)
+
+### Half Adder TIMING DIAGRAM
+
+![Exp3 ha wave](https://github.com/SUBBIAH1904/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/147473604/991524a3-4fc8-4e4a-b0c4-4d102e62dd8a)
+
 
 ### Result:
